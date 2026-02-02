@@ -1,16 +1,58 @@
-# React + Vite
+# WEB103 Prework - CreatorVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: **Noor Al Azzawi**
 
-Currently, two official plugins are available:
+About this web app:  
+**CreatorVerse** is a React web application that allows users to view, add, edit, and delete content creators. Each creator is displayed in a card layout with their name, description, image, and social media link. The app uses Supabase as a backend database and demonstrates full CRUD functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Time spent: **12–15** hours
 
-## React Compiler
+## Required Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The following **required** functionality is completed:
 
-## Expanding the ESLint configuration
+- [x] **A logical component structure in React is used to create the frontend of the app**
+- [x] **At least five content creators are displayed on the homepage of the app**
+- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **API calls use the async/await design pattern via Axios or fetch()**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Each content creator has their own unique URL**
+- [x] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can delete a content creator**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Optional Features
+
+The following **optional** features are implemented:
+
+- [x] The content creator items are displayed in a creative format, like cards instead of a list
+- [x] An image of each content creator is shown on their content creator card
+
+## Additional Features
+
+The following **additional** features are implemented:
+
+- [x] Custom glassmorphism UI with gradients and animations
+- [x] Image fallback styling when an image URL is missing or broken
+- [x] Responsive layout for mobile and desktop screens
+- [x] Hover effects and smooth transitions for better user experience
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+https://github.com/user-attachments/assets/ccf7028f-1312-4415-9959-4bceda4c2a17
+
+
+## Notes
+
+One challenge encountered while building the app was organizing the React components and managing state across different pages. This was resolved by using a clear component structure and React Router to handle navigation between views.
+
+## License
+
+Copyright 2026 Noor
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+> http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
